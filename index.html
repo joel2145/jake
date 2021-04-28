@@ -5,11 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>じゃけえのJS</title>
+    <title>じゃけえのTODOアプリ</title>
 </head>
 
 <body>
-    <p>Hello!World!!</p>
+    <!-- 追加 -->
+    <div class="input">
+        <input id="add-text" type="text" placeholder="TODOを入力">
+        <button id="add-btn">追加</button>
+    </div>
+
+    <!-- 未完了 -->
+    <div class="todo">
+        <p class="title">Todo</p>
+        <ul id="todo-list">
+        </ul>
+    </div>
+
+    <!-- 完了 -->
+    <div class="done">
+        <p class="title">Done</p>
+        <ul id="done-list">
+        </ul>
+    </div>
+
     <script type="text/javascript" src="script.js"></script>
 </body>
 
